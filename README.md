@@ -10,7 +10,7 @@ To use this project as is, first clone the repo from GitHub, then run:
 ```bash
 $ cd ionic-kick-starter
 $ sudo npm install -g cordova ionic gulp
-$ sudo npm install --save-dev gulp gulp-util gulp-coffee gulp-concat gulp-sass shelljs gulp-uglify gulp-livereload tiny-lr gulp-browserify gulp-minify-html gulp-jsonminify gulp-imagemin imagemin-pngcrush gulp-jade bower gulp-minify-css gulp-autoprefixer
+$ sudo npm install --save-dev gulp gulp-util gulp-coffee gulp-concat gulp-concat-css gulp-sass shelljs gulp-uglify gulp-livereload tiny-lr gulp-browserify gulp-minify-html gulp-jsonminify gulp-imagemin imagemin-pngcrush gulp-jade bower gulp-minify-css gulp-autoprefixer
 $ gulp
 ```
 
