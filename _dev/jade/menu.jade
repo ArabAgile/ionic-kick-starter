@@ -1,0 +1,15 @@
+ion-side-menus
+  ion-pane(ion-side-menu-content='')
+    ion-nav-bar.bar-stable.bar-positive.nav-title-slide-ios7
+      ion-nav-back-button.button-clear
+        i.icon.ion-chevron-left
+        | Back
+    ion-nav-view(name='menuContent', animation='slide-left-right')
+  ion-side-menu(side='left')
+    header.bar.bar-header.bar-stable
+      h1.title Main menu
+    ion-content.has-header
+      ion-list
+        ion-item.item-icon-left(nav-clear='', menu-close='', href='#/app/main')
+          i.icon.ion-images
+          | Main

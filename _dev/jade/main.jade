@@ -1,0 +1,18 @@
+ion-view(title='Kick Starter')
+  ion-nav-buttons(side='left')
+    button.button.button-icon.icon.ion-navicon(menu-toggle='left')
+  ion-content.ag-bg.padding.has-header.ag-spc
+    .ag-main
+    h5.title Sample app
+    .row.row-center
+      .col
+        a.button.button-full.button-royal(ng-href='#/app/main') Button
+    .spc
+       
+  .tabs.tabs-icon-only.tabs-balanced
+    a.tab-item(href='#/app/main')
+      i.icon.ion-home
+    a.tab-item(ng-click='goto("new-ad")')
+      i.icon.ion-plus-round
+    a.tab-item(ng-click='goto("profile")')
+      i.icon.ion-ios7-person

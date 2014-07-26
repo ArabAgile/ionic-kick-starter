@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.arabagile.ionic-kickstarter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Ionic Kick Starter</name>
+    <description>
+        A sample Kick starter kit for Ionic, Cordova, Gulp, and Parse.com
+    </description>
+    <author email="me@arabagile.com" href="http://arabagile.com">
+        Arab Agile
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+
+    <preference name="webviewbounce" value="false" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+
+    <feature name="StatusBar">
+      <param name="ios-package" value="CDVStatusBar" onload="true" />
+    </feature>
+
+</widget>
